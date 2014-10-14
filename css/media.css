@@ -1,0 +1,337 @@
+@media screen and (max-width: 1700px){
+	.two-text-columns .reviews-list li{
+		width:100%;
+	}
+}
+@media screen and (max-width: 1600px){
+	.gallery-wrapper .main-gallery{
+		width:60%;
+	}
+	.main-description{
+		width:40%;
+	}
+	.reviews-list li,
+	.cat-nav-list li{
+		width:25%;
+	}
+	.portfolio-list .grid-sizer, .portfolio-list li{
+		width:20%;
+	}
+	.portfolio-list li.w2{
+		width:40%;
+	}
+}
+@media screen and (max-width: 1500px){
+	.two-text-columns .col1{
+		width:70%;
+	}
+	.two-text-columns .col2{
+		width:30%;
+	}
+	.main-gallery .prev,
+	.main-gallery .text,
+	.main-gallery .switcher{
+		left: 40px;
+	}
+	.gallery-wrapper .next{
+		right:40px;
+	}
+	.portfolio-gallery .prev{
+		left:-30px;
+	}
+	.mobile .main-wrapper,
+	.main-description,
+	.main-wrapper .mCSB_container{
+		padding-left:40px;
+		padding-right:40px;
+	}
+	.map-wrap,
+	.clients-list,
+	.portfolio-wrapper,
+	.gallery-wrapper {
+		margin-left:-40px;
+		margin-right:-40px;
+	}
+	.portfolio-wrapper{
+		padding-left:35px;
+		padding-right:35px;
+	}
+	.reviews-list li,
+	.cat-nav-list li{
+		width:33.33%;
+	}
+	.portfolio-list .grid-sizer, .portfolio-list li{
+		width:25%;
+	}
+	.portfolio-list li.w2{
+		width:50%;
+	}
+}
+@media screen and (max-width: 1250px){
+	.two-text-columns .col2,
+	.two-text-columns .col1{
+		width:100%;
+	}
+	.two-text-columns .reviews-list li{
+		width:33.3%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.main-portfolio-description .reviews-gallery .next,
+	.main-portfolio-description .reviews-gallery .prev{
+		display:none;
+	}
+	.main-portfolio-description .portfolio-description{
+		width:100%;
+	}
+	.main-portfolio-description .reviews-wrapper{
+		width:100%;
+	}
+	.main-portfolio-description .reviews-gallery .reviews-list li{
+		margin:30px 0 0;
+		padding:0 20px;
+		width:50% !important;
+	}
+	.main-portfolio-description .reviews-gallery .reviews-list{
+		margin:0 -20px;
+		-moz-transform: translateX(0px) !important;
+		-webkit-transform: translateX(0px) !important;
+		-o-transform: translateX(0px) !important;
+		-ms-transform: translateX(0px) !important;
+		transform: translateX(0px) !important;
+	}
+	.main-portfolio-description .reviews-gallery{
+		padding:0 20px;
+	}
+	.main-gallery .gallery{
+		/*
+height:500px;
+*/
+	}
+	.gallery-wrapper{
+		background:none;
+	}
+	.gallery-wrapper .main-gallery{
+		width:100%;
+		float:none;
+	}
+	.main-description{
+		position:static;
+		width:100%;
+	}
+	.reviews-list li,
+	.cat-nav-list li{
+		width:50%;
+	}
+	.portfolio-list .grid-sizer, .portfolio-list li{
+		width:33.2%;
+	}
+	.portfolio-list li.w2{
+		width:66.3%;
+	}
+	.service-wrapper {
+		width:200px;
+	}
+	.service-box{
+		margin:0 15px;
+	}
+	.has-service .main-wrapper{
+		margin-left:400px;
+		margin-right:0px;
+	}
+	.has-service .ico-side-col{
+		display:none;
+	}
+	
+}
+@media screen and (max-width: 1000px){
+	.has-service .main-nav-wrap .nav li.active:after{
+		background-color:#fff;
+	}
+	.has-service .main-nav-wrap .nav a:hover{
+		background-color:#fff;
+	}
+	.service-wrapper{
+		display:none;
+	}
+	.has-service .main-wrapper{
+		margin-left:200px;
+	}
+	.two-text-columns .reviews-list li{
+		width:50%;
+	}
+	.clients-list li{
+		width:25%;
+	}
+	.clients-list .more-wrap{
+		width:100%;
+		height:50px;
+		line-height:50px;
+	}
+}
+@media screen and (max-width: 960px){
+	.next-page{
+		margin-right:0px;
+	}
+	.ico-side-col{
+		display:none;
+	}
+	.main-gallery .prev,
+	.main-gallery .text,
+	.main-gallery .switcher{
+		left: 30px;
+	}
+	.gallery-wrapper .next{
+		right:30px;
+	}
+	.portfolio-gallery .prev{
+		left:-30px;
+	}
+	.main-description{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	.main-wrapper{
+		margin-right:0px;
+	}
+	.mobile .main-wrapper,
+	.main-wrapper .mCSB_container{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	.map-wrap,
+	.clients-list,
+	.portfolio-wrapper,
+	.gallery-wrapper{
+		margin-left:-30px;
+		margin-right:-30px;
+	}
+	.portfolio-wrapper{
+		padding-left:25px;
+		padding-right:25px;
+	}
+}
+@media screen and (max-width: 860px){
+	.prev-page{
+		margin-left:0px;
+		margin-top:40px;
+	}
+	.next-page{
+		margin-top:40px;
+	}
+	.popup{
+		margin-top:98px;
+		left:50%;
+		margin-left:-345px;
+	}
+	#callback-popup .popup .arrow,
+	.popup .arrow{
+		left:50%;
+		margin:-10px 0 0 -10px;
+		background-position:-471px 0;
+		width:20px;
+		height:10px;
+	}
+	.clients-list .more-wrap{
+		width:20%;
+		height: 159px;
+		line-height: 159px;
+	}
+	.clients-list li{
+		width:20%;
+	}
+	.main-nav-wrap .nav li.active:after{
+		width:auto;
+		height:50px;
+		right:-10px;
+		left:-10px;
+		background-color:#fff;
+		-webkit-border-radius:4px 4px 0 0;
+		-moz-border-radius:4px 4px 0 0;
+		border-radius:4px 4px 0 0;
+	}
+	.main-nav-wrap{
+		position:fixed;
+		left:0;
+		right:0;
+		top:0;
+		bottom:auto;
+		width:auto;
+		height:150px;
+		z-index:200;
+		overflow:hidden;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.main-nav-wrap .mCSB_container{
+		height:100%;
+	}
+	 .has-service .main-wrapper,
+	 .main-wrapper{
+	 	margin-top:150px;
+	 	margin-left:0px;
+	 }
+	 .logo{
+	 	position:absolute;	 	left:30px;	 	top:20px;
+		margin:0;
+	 }
+	 .main-nav-wrap .min-nav{
+	 	position:absolute;	 	left:170px;	 	top:15px;
+		margin:0;
+	 }
+	 .main-nav-wrap .min-nav li{
+	 	float:left;
+		margin:0 28px 0 0;
+	 }
+	 .main-nav-wrap .nav{
+	 	position:absolute;	 	left:170px;	 	top:113px;
+		right:30px;
+		margin:0;
+		text-align:justify;
+	 }
+	.main-nav-wrap .nav:after {
+		content: "1";
+		margin-left: 100%;
+		height: 0px;
+		overflow: hidden;
+		display: inline-block;
+	}
+	.main-nav-wrap .nav li{
+		float:none;
+		margin:0;
+		display:inline;
+		vertical-align:top;
+	}
+	.main-nav-wrap .nav li a{
+		display:inline-block;
+		margin:0 -10px;
+		padding:0 10px;
+		vertical-align:top;
+	}
+	 .main-nav-wrap .address,
+	 .main-nav-wrap .network-list{
+	 	display:none;
+	 }
+	 .main-nav-wrap .tel{
+	 	position:absolute;	 	right:30px;	 	top:52px;
+	 }
+	 .main-nav-wrap .btn{
+	 	position:absolute;	 	left:170px;	 	top:50px;
+	 }
+	 .main-nav-wrap .btn.opener-oredr{
+	 	left:320px;
+	 }
+	 .main-nav-wrap .nav .active a:before,
+	 .main-nav-wrap .nav .active a:after{
+	 	left: -4px;
+		top: 33px;
+		background-position:-308px 0;
+	 }
+	 .main-nav-wrap .nav .active a:after{
+		left:auto;
+		right:-4px;
+		top: 33px;
+		background-position:-324px 0;
+	 }
+}
