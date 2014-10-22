@@ -264,6 +264,9 @@ height:500px;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+	.mobile-device .main-nav-wrap{
+		position:absolute;
+	}
 	.main-nav-wrap .mCSB_container{
 		height:100%;
 	}
@@ -271,6 +274,9 @@ height:500px;
 	 .main-wrapper{
 	 	margin-top:150px;
 	 	margin-left:0px;
+	 }
+	 .mobile-device .main-wrapper{
+	 	position:static;
 	 }
 	 .logo{
 	 	position:absolute;	 	left:30px;	 	top:20px;

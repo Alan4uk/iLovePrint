@@ -10,6 +10,9 @@ $(document).ready(function() {
 		}, 300);
 		if (device.mobile() || device.tablet()) {
 			$('#wrapper').addClass('mobile');
+			if(device.mobile()){
+				$('#wrapper').addClass('mobile-device');
+			}
 		}else{
 			$(".customScrollbar").each(function(){
 				$(this).mCustomScrollbar({
