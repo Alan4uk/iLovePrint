@@ -3,6 +3,7 @@ $(document).ready(function() {
 	initService();
 	initMapHeight();
 	initPopup();
+	initServiceList();
 	//$(window).trigger('resize');
 	$(window).load(function() {
 		setTimeout(function() {
@@ -51,6 +52,24 @@ $(document).ready(function() {
 			initPopup();
 			$(".main-description").trigger("update");
 		});
+	}
+	function initServiceList() {
+		$('.side-opener-service').mouseenter(function(){
+			$('.service-hover-block').addClass('hover');
+		}).mouseleave(function(){
+			setTimeout(function(){
+				if(!$('.service-hover-block').hasClass('active-b')){
+					$('.service-hover-block').removeClass('hover').removeClass('active-b');
+				}
+			},300);
+		});
+		$('.service-hover-block').mouseenter(function(){
+			$('.service-hover-block').addClass('active-b');
+		}).mouseleave(function(){
+			setTimeout(function(){
+				$('.service-hover-block').removeClass('hover').removeClass('active-b');
+			},300);
+		});;
 	}
 	function maskInput() {
 		if ($(".input-tel").size()) $(".input-tel").mask("+7 (999) 999-99-99", {
