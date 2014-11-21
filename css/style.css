@@ -1317,7 +1317,7 @@ margin-bottom:-1px;
 	-moz-border-radius:4px 0 0 4px;
 	border-radius:4px 0 0 4px;
 	content:'';
-	height:30px;
+	bottom:0;
 	width:220px;
 }
 .service-list li.active a{
@@ -1335,7 +1335,8 @@ margin-bottom:-1px;
 	content:'';
 }
 .service-list li.active a:after{
-	top:30px;
+	top:auto;
+	bottom:-4px;
 	background-position:-303px 0;
 }
 .two-text-columns{

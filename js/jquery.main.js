@@ -188,7 +188,7 @@ $(document).ready(function() {
 		$('.portfolio-list').isotope({
 			itemSelector: 'li',
 			masonry: {
-				columnWidth: '.grid-sizer'
+				columnWidth: 'li:last-child'
 			}
 		});
 	}
