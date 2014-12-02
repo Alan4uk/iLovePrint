@@ -15,12 +15,15 @@ $(document).ready(function() {
 				$('#wrapper').addClass('mobile-device');
 			}
 		}else{
-			$(".customScrollbar").each(function(){
+			setTimeout(function(){
+				$(".customScrollbar").each(function(){
 				$(this).mCustomScrollbar({
 					theme:"rounded",
 					scrollInertia: 0
 				});
 			});
+			},50);
+			
 		}
 		//initImgBg();
 		if($('.bg').size()) initSly();
