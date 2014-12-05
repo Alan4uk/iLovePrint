@@ -29,7 +29,7 @@ $(document).ready(function() {
 		if ($('.bg').size()) initSly();
 		setTimeout(function() {
 			if ($('.isotope').size()) initIsotope();
-		}, 50);
+		}, 80);
 		initdotdotdot();
 	});
 	if (device.mobile() || device.tablet()) {
