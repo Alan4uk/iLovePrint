@@ -56,8 +56,24 @@ $(document).ready(function() {
 			initPopup();
 			$(".main-description").trigger("update");
 		});
+		var positionArrow = $(window).height()/2+20;
+		$(".main-wrapper").mCustomScrollbar({
+		    callbacks:{
+		        whileScrolling:function(){
+					if($('.prev-page').size()||$('.next-page').size()){
+						if(positionArrow>$('.portfolio-post').offset().top-60){
+							$('.prev-page,.next-page').addClass('stopArrow').css({
+								'top':$('.portfolio-post').position().top
+							});
+						}else{
+						$('.prev-page,.next-page').removeClass('stopArrow').removeAttr('style');
+						}
+					}
+		        }
+		    }
+		});
 	}
-
+	
 	function initServiceList() {
 		$('.side-opener-service').mouseenter(function() {
 			$('.service-hover-block').addClass('hover');

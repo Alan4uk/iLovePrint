@@ -169,6 +169,11 @@ height:500px;
 		line-height:50px;
 	}
 }
+@media screen and (max-width: 980px){
+	.service-wrapper{
+		display:none;
+	}
+}
 @media screen and (max-width: 960px){
 	.next-page{
 		margin-right:0px;

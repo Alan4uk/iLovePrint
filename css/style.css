@@ -76,7 +76,7 @@ body {
 	color:#555555;
 	font:14px/17px 'exo_2light', sans-serif;
 	background:#fff;
-	min-width: 768px;
+	min-width: 960px;
 	height:100%;
 }
 img {
@@ -815,6 +815,10 @@ max-height:650px;
 	right:0;
 	left:auto;
 	margin-right:110px;
+}
+.prev-page.stopArrow,
+.next-page.stopArrow{
+	position:absolute;	margin:-120px 0 0 !important;
 }
 .next-page:after,
 .prev-page:after{
